@@ -40,7 +40,7 @@ def main():
         ball_x += ball_speed_x
         ball_y += ball_speed_y
         
-        # Bounce off walls test-ind-api/fyinformation/cc frame radius
+        # Bounce off walls test-ind-api/fy22 frame radius
         if ball_x <= ball_radius or ball_x >= WIDTH - ball_radius:
             ball_speed_x *= -1
         if ball_y <= ball_radius or ball_y >= HEIGHT - ball_radius:
